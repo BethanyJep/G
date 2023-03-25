@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>OpenAI GPT-3 Results</title>
+</head>
+<body>
+	<h1>OpenAI GPT-3 Results</h1>
+	<p><strong>Start Phrase:</strong> {{ start_phrase }}</p>
+	<p><strong>Generated Response:</strong> {{ text }}</p>
+
+	<form method="post">
+		<label for="start_phrase">Start Phrase:</label>
+		<input type="text" name="start_phrase">
+		<input type="submit" value="Generate Response">
+	</form>
+</body>
+</html>
