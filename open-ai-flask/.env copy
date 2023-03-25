@@ -1,0 +1,7 @@
+# API key for your OpenAI account
+key = 'ff23625da6924c208f67b3c9f8b9785a'
+base =  "https://<resource name>.openai.azure.com/" 
+# your endpoint should look like the following https://YOUR_RESOURCE_NAME.openai.azure.com/
+type = 'azure'
+version = '2022-12-01' # this may change in the future
+deployment_name = '<deployment name>'

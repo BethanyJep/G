@@ -1,0 +1,17 @@
+# Custom Vision Auth
+ENDPOINT = "https://<name>-prediction.cognitiveservices.azure.com/"
+PREDICTION_KEY = "<prediction key>"
+PROJECT_ID = "<project ID>"
+ITERATION_NAME = "<iteration name>"
+
+# Computer Vision Auth
+cv_endpoint = 'https://<location>.api.cognitive.microsoft.com/'
+subscription_key = '<subscription key>'
+
+# Open AI Auth
+key = 'ff23625da6924c208f67b3c9f8b9785a'
+base =  "https://<resource name>.openai.azure.com/" 
+# your endpoint should look like the following https://YOUR_RESOURCE_NAME.openai.azure.com/
+type = 'azure'
+version = '2022-12-01' # this may change in the future
+deployment_name = '<deployment name>'
